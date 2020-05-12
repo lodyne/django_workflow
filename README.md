@@ -29,7 +29,7 @@ Note:- django_workflow is the name of the django project and the dot(.) at the e
 
 And you can use tree command to show the file structure of the created django_workflow project as shown below:-
 
-![project structure](projectstructure.png)
+![project structure](IMAGES/projectstructure.png)
 
 ## Create the django app
 
@@ -39,7 +39,7 @@ You can now create the django app which resides inside the django project and it
 
 Note: myapp is the name of the created app and you can check the file structure of myapp by using *tree* command as shown below:-
 
-![app stucture](appstructure.png)
+![app stucture](IMAGES/appstructure.png)
 
 ### Register the app in INSTALLED APPS in settings.py
 
@@ -49,7 +49,7 @@ Therefore you must register your created app into INSTALLED APPS so as to be kno
 Go to the apps.py file and copy the *name of the class*, Put  the *name of the app* folllowed by *apps* then the name of the class.
 i.e. name_of_the_app.apps.name_of_the_class_copied_from_apps.py
 
-![Installed apps](installedapps.png)
+![Installed apps](IMAGES/installedapps.png)
 
 ## Run the server
 
@@ -58,8 +58,8 @@ The Django framework has in-built server which helps in production stage.
 
 ``` python manage.py runserver ```
 
-![Run the server](runserver.png)
+![Run the server](IMAGES/runserver.png)
 
 The following Django page will appear as shown below:-
 
-![django page after running server](djangopage.png)
+![django page after running server](IMAGES/djangopage.png)

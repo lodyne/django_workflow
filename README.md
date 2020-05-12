@@ -6,14 +6,14 @@ When dealing with django, it is advised to use virtual environment so as to make
 There are so many virtual environment options such as pipenv,venv,virtualenv etc. but i prefer to use virtualenv.
 And the one i use is specifically for window i.e. virtualenvwrapper-win.
 
-''' pip install virtualenvwrapper-win'''
+``` pip install virtualenvwrapper-win ```
 
 ### Make the virtual environment
 
 After installing virtual environment, you have to make vitual environment for your
 preference. This is done by the following command:-
 
-''' mkvirtualenv workflow '''
+``` mkvirtualenv workflow ```
 
 This command changes the  cmd to have a prefix of the created virtualenv as shown below:-
 
@@ -23,7 +23,7 @@ This command changes the  cmd to have a prefix of the created virtualenv as show
 
 Django has the idea of project and apps i.e. the project is the main container in which other apps are contained in it. This is done by using the following command:-
 
-''' django-admin startproject django_workflow .'''
+``` django-admin startproject django_workflow . ```
 
 Note:- django_workflow is the name of the django project and the dot(.) at the end is optional so as to reduce redundancy of django project naming.
 
@@ -35,7 +35,7 @@ And you can use tree command to show the file structure of the created django_wo
 
 You can now create the django app which resides inside the django project and it is the one presenting the actual app/feature you are trying to build inside the project.Type this command below:-
 
-''' python manage.py startapp myapp '''
+``` python manage.py startapp myapp ```
 
 Note: myapp is the name of the created app and you can check the file structure of myapp by using *tree* command as shown below:-
 
@@ -56,7 +56,7 @@ i.e. name_of_the_app.apps.name_of_the_class_copied_from_apps.py
 You have to run the server to prove if the configuration is set properly.
 The Django framework has in-built server which helps in production stage.
 
-''' python manage.py runserver '''
+``` python manage.py runserver ```
 
 ![Run the server](runserver.png)
 

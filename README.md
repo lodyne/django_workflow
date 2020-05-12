@@ -17,7 +17,7 @@ preference. This is done by the following command:-
 
 This command changes the  cmd to have a prefix of the created virtualenv as shown below:-
 
-![virtualenv in cmd](cmd.png)
+![virtualenv in cmd](IMAGES/cmd.png)
 
 ## Create the django project
 
